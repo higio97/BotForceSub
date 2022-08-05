@@ -91,12 +91,8 @@ async def start_command(client: Client, message: Message):
         reply_markup = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("🆔 ᴄʜᴀɴɴᴇʟ 1",url = client.invitelink),
-                    InlineKeyboardButton("🆔 ᴄʜᴀɴɴᴇʟ 2",url = client.invitelink2)
-                ],
-                [
-                    InlineKeyboardButton("🆔 ᴄʜᴀɴɴᴇʟ 3",url = client.invitelink3),
-                    InlineKeyboardButton("🆔 ᴄʜᴀɴɴᴇʟ 4",url = client.invitelink4)
+                    InlineKeyboardButton("🥷 ᴛᴇɴᴛᴀɴɢ sᴀʏᴀ", callback_data = "about"),
+                    InlineKeyboardButton("🔒 ᴛᴜᴛᴜᴘ", callback_data = "close")
                 ]
             ]
         )
