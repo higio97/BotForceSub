@@ -1,13 +1,13 @@
 {
   "name": "FILE TO LINK BOT",
-  "description": "Dapat merubah file menjadi link pada telegram bot https://t.me/chatjomblohalu_bot",
+  "description": "Dapat merubah file menjadi link pada telegram bot",
   "keywords": [
     "telegram",
     "file",
     "sharing"
   ],
-  "repository": "https://github.com/CodeXBotz/File-Sharing-Bot",
-  "logo": "https://telegra.ph/file/60b186cac61f84c79f5ad.jpg",
+  "repository": "https://github.com/higio97/BotForceSub",
+  "logo": "https://telegra.ph/file/dc255a77eaa03452989e1.jpg",
   "env": {
     "TG_BOT_TOKEN": {
       "description": "Masukkan token bot kamu, dari @Botfather",
