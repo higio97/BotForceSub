@@ -78,7 +78,7 @@ class Bot(Client):
             sys.exit()
 
         self.set_parse_mode("html")
-        self.LOGGER(__name__).info("Bot Telah Aktif\n\nJangan Lupa Mainkan bot t.me/chatjomblohalu_bot")
+        self.LOGGER(__name__).info("Bot Telah Aktif")
         self.username = usr_bot_me.username
 
     async def stop(self, *args):
